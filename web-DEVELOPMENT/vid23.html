@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display properties</title>
+    <style>
+        *{
+            margin:10px;
+            padding:10px;
+            border:2px;
+        }
+        .circle {
+            border: 2px solid green;
+            box-shadow:-2px 0px 7px 1px rgb(77, 231, 16);
+            display:inline-block;
+        };
+        .circle2{
+            display:none;
+            visibility:hidden;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="circle">
+        I am a circle
+    </div>
+    <div class="circle circle2">
+        Also second circle
+    </div>
+</body>
+
+</html>
